@@ -18,11 +18,14 @@
 
 <p align="center">
 <a href="https://coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="https://ws1.sinaimg.cn/large/006rNwoDgy1g2dw5gau7nj30eg02vwfr.jpg"/>
+  <img src="http://pqrlmrv7w.bkt.clouddn.com/img/2019-4/006rNwoDgy1g2dw5gau7nj30eg02vwfr.jpg"  width="390px"/>
+</a>
+  <a href="http://www.lubanjava.com/luban/index.html?=javaguide
+" target="_blank">
+  <img src="http://pqrlmrv7w.bkt.clouddn.com/img/2019-4/QQ图片20190514211856.gif" width="390px"/>
  </a>
 </p>
 
-推荐一下我的另外一个正在维护的项目：[programmer-advancement](https://github.com/Snailclimb/programmer-advancement) (技术人员成长必备！)
 
 推荐使用 <https://snailclimb.top/JavaGuide/> 在线阅读(访问速度慢的话，请使用 <https://snailclimb.gitee.io/javaguide> )，在线阅读内容本仓库同步一致。这种方式阅读的优势在于：有侧边栏阅读体验更好，Gitee pages 的访问速度相对来说也比较快。
 
@@ -69,36 +72,31 @@
 
 * [Java 基础知识回顾](docs/java/Java基础知识.md)
 * [J2EE 基础知识回顾](docs/java/J2EE基础知识.md)
-* [Collections 工具类和 Arrays 工具类常见方法](docs/java/Basis/Arrays%2CCollectionsCommonMethods.md)
-* [Java常见关键字总结：static、final、this、super](docs/java/Basis/final、static、this、super.md) 
 
 ### 容器
 
-* **常见问题总结：**
-  * [这几道Java集合框架面试题几乎必问](docs/java/这几道Java集合框架面试题几乎必问.md)
-  * [Java 集合框架常见面试题总结](docs/java/Java集合框架常见面试题总结.md)
-* **源码分析：**
-  * [ArrayList 源码学习](docs/java/ArrayList.md) 
-  * [【面试必备】透过源码角度一步一步带你分析 ArrayList 扩容机制](docs/java/ArrayList-Grow.md)    
-  * [LinkedList 源码学习](docs/java/LinkedList.md)   
-  * [HashMap(JDK1.8)源码学习](docs/java/HashMap.md)  
+* [常见面试题](docs/java/collection/Java集合框架常见面试题.md)
+* [ArrayList 源码学习](docs/java/collection/ArrayList.md)  
+* [LinkedList 源码学习](docs/java/collection/LinkedList.md)   
+* [HashMap(JDK1.8)源码学习](docs/java/collection/HashMap.md)  
 
 ### 并发
 
 * [Java 并发基础常见面试题总结](docs/java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary.md)
 * [Java 并发进阶常见面试题总结](docs/java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions.md)
 * [并发容器总结](docs/java/Multithread/并发容器总结.md)
-* [synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化以及 和ReentrantLock 的对比](docs/java/synchronized.md)
 * [乐观锁与悲观锁](docs/essential-content-for-interview/面试必备之乐观锁与悲观锁.md)
 * [JUC 中的 Atomic 原子类总结](docs/java/Multithread/Atomic.md)
 * [AQS 原理以及 AQS 同步组件总结](docs/java/Multithread/AQS.md)
 
-
 ### JVM
 
-* [Java内存区域](docs/java/可能是把Java内存区域讲的最清楚的一篇文章.md)
-* [JVM垃圾回收](docs/java/搞定JVM垃圾回收就是这么简单.md)
-* [《深入理解Java虚拟机》第2版学习笔记](docs/java/Java虚拟机（jvm）.md)
+* [一 Java内存区域](docs/java/jvm/Java内存区域.md)
+* [二 JVM垃圾回收](docs/java/jvm/JVM垃圾回收.md)
+* [三 JDK 监控和故障处理工具](docs/java/jvm/JDK监控和故障处理工具总结.md)
+* [四 类文件结构](docs/java/jvm/类文件结构.md)
+* [五 类加载过程](docs/java/jvm/类加载过程.md)
+* [六 类加载器](docs/java/jvm/类加载器.md)
 
 ### I/O
 
@@ -206,7 +204,7 @@
 
 * [第一周（2018-8-7）](docs/essential-content-for-interview/MostCommonJavaInterviewQuestions/第一周（2018-8-7）.md) (为什么 Java 中只有值传递、==与equals、 hashCode与equals)
 * [第二周（2018-8-13）](docs/essential-content-for-interview/MostCommonJavaInterviewQuestions/第二周(2018-8-13).md)(String和StringBuffer、StringBuilder的区别是什么？String为什么是不可变的？、什么是反射机制？反射机制的应用场景有哪些？......)
-* [第三周（2018-08-22）](docs/java/这几道Java集合框架面试题几乎必问.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
+* [第三周（2018-08-22）](docs/java/collection/Java集合框架常见面试题.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
 * [第四周(2018-8-30).md](docs/essential-content-for-interview/MostCommonJavaInterviewQuestions/第四周(2018-8-30).md) （主要内容是几道面试常问的多线程基础题。）
 
 ### 面经
@@ -287,7 +285,6 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 
 下面是笔主收集的一些对本仓库提过有价值的pr或者issue的朋友，人数较多，如果你也对本仓库提过不错的pr或者issue的话，你可以加我的微信与我联系。下面的排名不分先后！
 
-
 <a href="https://github.com/fanofxiaofeng">
     <img src="https://avatars0.githubusercontent.com/u/3983683?s=460&v=4" width="45px"></a>
 <a href="https://github.com/dongzl">
@@ -323,6 +320,9 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 </a>
 <a href="https://github.com/yuechuanx">  
     <img src="https://avatars3.githubusercontent.com/u/19339293?s=460&v=4" width="45px">
+</a>
+<a href="https://github.com/cnLGMing">  
+    <img src="https://avatars2.githubusercontent.com/u/15910705?s=460&v=4" width="45px">
 </a>
 
 ### 公众号
